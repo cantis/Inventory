@@ -1,3 +1,17 @@
 C:\source\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.csproj.CoreCompileInputs.cache
 C:\source\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.AssemblyInfoInputs.cache
 C:\source\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.AssemblyInfo.cs
+C:\source\inventory\InventoryService\InventoryService\bin\Debug\netcoreapp2.2\InventoryService.deps.json
+C:\source\inventory\InventoryService\InventoryService\bin\Debug\netcoreapp2.2\InventoryService.runtimeconfig.json
+C:\source\inventory\InventoryService\InventoryService\bin\Debug\netcoreapp2.2\InventoryService.runtimeconfig.dev.json
+C:\source\inventory\InventoryService\InventoryService\bin\Debug\netcoreapp2.2\InventoryService.dll
+C:\source\inventory\InventoryService\InventoryService\bin\Debug\netcoreapp2.2\InventoryService.pdb
+C:\source\inventory\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.csprojAssemblyReference.cache
+C:\source\inventory\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.csproj.CoreCompileInputs.cache
+C:\source\inventory\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.RazorAssemblyInfo.cache
+C:\source\inventory\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.RazorAssemblyInfo.cs
+C:\source\inventory\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.AssemblyInfoInputs.cache
+C:\source\inventory\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.AssemblyInfo.cs
+C:\source\inventory\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.RazorTargetAssemblyInfo.cache
+C:\source\inventory\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.dll
+C:\source\inventory\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.pdb

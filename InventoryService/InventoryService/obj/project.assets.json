@@ -12121,11 +12121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\InventoryService\\InventoryService\\InventoryService.csproj",
+      "projectUniqueName": "c:\\source\\inventory\\InventoryService\\InventoryService\\InventoryService.csproj",
       "projectName": "InventoryService",
-      "projectPath": "C:\\source\\InventoryService\\InventoryService\\InventoryService.csproj",
+      "projectPath": "c:\\source\\inventory\\InventoryService\\InventoryService\\InventoryService.csproj",
       "packagesPath": "C:\\Users\\eyoung\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\InventoryService\\InventoryService\\obj\\",
+      "outputPath": "c:\\source\\inventory\\InventoryService\\InventoryService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
