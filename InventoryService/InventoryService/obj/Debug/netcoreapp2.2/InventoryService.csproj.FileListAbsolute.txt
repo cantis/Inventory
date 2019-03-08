@@ -1,0 +1,3 @@
+C:\source\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.csproj.CoreCompileInputs.cache
+C:\source\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.AssemblyInfoInputs.cache
+C:\source\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.AssemblyInfo.cs
