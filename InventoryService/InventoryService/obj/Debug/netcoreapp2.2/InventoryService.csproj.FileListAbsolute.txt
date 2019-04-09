@@ -15,3 +15,8 @@ C:\source\inventory\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\In
 C:\source\inventory\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.RazorTargetAssemblyInfo.cache
 C:\source\inventory\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.dll
 C:\source\inventory\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.pdb
+C:\source\Inventory\InventoryService\InventoryService\bin\Debug\netcoreapp2.2\InventoryService.data.dll
+C:\source\Inventory\InventoryService\InventoryService\bin\Debug\netcoreapp2.2\InventoryService.manager.dll
+C:\source\Inventory\InventoryService\InventoryService\bin\Debug\netcoreapp2.2\InventoryService.data.pdb
+C:\source\Inventory\InventoryService\InventoryService\bin\Debug\netcoreapp2.2\InventoryService.manager.pdb
+C:\source\Inventory\InventoryService\InventoryService\obj\Debug\netcoreapp2.2\InventoryService.csproj.CopyComplete
