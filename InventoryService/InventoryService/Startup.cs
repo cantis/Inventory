@@ -1,4 +1,5 @@
 ﻿using InventoryService.data;
+using InventoryService.manager;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -24,6 +25,9 @@ namespace InventoryService
 
             var connection = @"Server=(localdb)\mssqllocaldb;Database=PFInventory;Trusted_Connection=True";
             services.AddDbContext<DataContext>(options => options.UseSqlServer(connection));
+
+            // Add aditional services below this point
+            services.AddTransient<ItemTypeManager, ItemTypeManager>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
