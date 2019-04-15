@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using InventoryService.manager;
 
 namespace InventoryService.Controllers
 {
@@ -13,17 +14,20 @@ namespace InventoryService.Controllers
     public class ItemTypesController : ControllerBase
     {
         private readonly DataContext _context;
+        private readonly ItemTypeManager _itemTypeManager;
 
-        public ItemTypesController(DataContext context)
+        public ItemTypesController(DataContext context, ItemTypeManager itemTypeManager)
         {
             _context = context;
+            _itemTypeManager = itemTypeManager;
         }
 
         // GET: api/ItemTypes
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ItemType>>> GetItemTypes()
         {
-            return await _context.ItemTypes.ToListAsync();
+            //return await _context.ItemTypes.ToListAsync();
+            return await _itemTypeManager.GetItemTypes();
         }
 
         // GET: api/ItemTypes/5
