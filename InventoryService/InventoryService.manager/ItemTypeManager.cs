@@ -1,44 +1,31 @@
 ﻿using InventoryService.data;
 using InventoryService.data.Models;
-using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
+using System.Text;
+using System.Linq;
 
 namespace InventoryService.manager
 {
-    /// <summary>
-    /// Item Type Manager
-    /// </summary>
-    public class ItemTypeManager
+    public class ItemTypeManager : IItemTypeManager
     {
         private readonly DataContext _context;
+        private readonly ItemTypeManager _manager;
 
-        /// <summary>
-        /// Create a new ItemType Manager object
-        /// </summary>
-        /// <param name="context">Dabase Context</param>
-        public ItemTypeManager(DataContext context)
+        public ItemTypeManager(DataContext context, ItemTypeManager manager)
         {
             _context = context;
+            _manager = manager;
         }
 
-        /// <summary>
-        /// Gets a Single Item Type
-        /// </summary>
-        /// <param name="typeId">TypeId to Get</param>
-        /// <returns>ItemType Object</returns>
-        public async Task<ItemType> GetItemType(int typeId)
+        public List<ItemType> GetItemTypes()
         {
-            return await _context.ItemTypes.FirstOrDefaultAsync(x => x.TypeId == typeId);
+            return _context.ItemTypes.ToList();
         }
 
-        /// <summary>
-        /// Gets a list of all Item Types
-        /// </summary>
-        /// <returns>List of ItemTypes</returns>
-        public async Task<List<ItemType>> GetItemTypes()
+        public ItemType GetItemType(int typeId)
         {
-            return await _context.ItemTypes.ToListAsync();
+            return _context.ItemTypes.FirstOrDefault(x => x.TypeId == typeId);
         }
     }
 }

@@ -1,0 +1,17 @@
+<div class="card">
+  <div class="card-body">
+    <form>
+      <div class="form-group">
+        <label for="description" class="col-md-4">Description</label>
+        <input type="text" class="form-control" id="description">
+      </div>
+      <div class="form-group">
+        <label for="sort" class="col-md-4">Sort</label>
+        <input type="text" class="form-control" id="sort">
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary" (click)="addItemType(description.value, sort.value)">Add Type</button>
+      </div>
+    </form>
+  </div>
+</div>
