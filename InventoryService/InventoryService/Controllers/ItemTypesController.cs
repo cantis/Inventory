@@ -24,10 +24,10 @@ namespace InventoryService.Controllers
 
         // GET: api/ItemTypes
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ItemType>>> GetItemTypes()
+        public ActionResult<List<ItemType>> GetItemTypes()
         {
             //return await _context.ItemTypes.ToListAsync();
-            return await _itemTypeManager.GetItemTypes();
+            return _itemTypeManager.GetItemTypes().ToList();
         }
 
         // GET: api/ItemTypes/5

@@ -42,7 +42,7 @@ namespace InventoryService.manager.test
             // arrange
 
             // act
-            var result = await _manager.GetItemTypes();
+            var result = _manager.GetItemTypes();
 
             // assert
             Assert.AreEqual(3, result.Count);
@@ -54,7 +54,7 @@ namespace InventoryService.manager.test
             // arrange
 
             // act
-            var result = await _manager.GetItemType(2);
+            var result = _manager.GetItemType(2);
 
             // assert
             Assert.AreEqual("Melee", result.Description);

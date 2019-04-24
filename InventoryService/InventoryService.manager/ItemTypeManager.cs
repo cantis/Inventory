@@ -1,8 +1,6 @@
 ﻿using InventoryService.data;
 using InventoryService.data.Models;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Linq;
 
 namespace InventoryService.manager
@@ -10,12 +8,10 @@ namespace InventoryService.manager
     public class ItemTypeManager : IItemTypeManager
     {
         private readonly DataContext _context;
-        private readonly ItemTypeManager _manager;
 
-        public ItemTypeManager(DataContext context, ItemTypeManager manager)
+        public ItemTypeManager(DataContext context)
         {
             _context = context;
-            _manager = manager;
         }
 
         public List<ItemType> GetItemTypes()
