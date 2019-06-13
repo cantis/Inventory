@@ -7,22 +7,18 @@ import ItemType from '../models/ItemType';
   providedIn: 'root'
 })
 export class ItemTypeService {
-
-  uri = 'https://localhost:44303/api/itemtypes';
+  formData: ItemType;
+  readonly rootURL = 'https://localhost:44303/api/itemtypes';
 
   constructor(private http: HttpClient) { }
 
-  addItemType(description: string, sort: number) {
-    const obj = {
-      description: description,
-      sort: sort
-    };
-    console.log(obj);
-    this.http.post('${this.uri}/add', obj).subscribe(res => console.log('Done'));
+  addItemType() {
+    console.log(this.formData);
+    return this.http.post( '${this.rootURL}/add', this.formData);
   }
 
   getItemTypes(): Observable<ItemType[]>  {
-    const result = this.http.get<ItemType[]>(this.uri);
+    const result = this.http.get<ItemType[]>(this.rootURL);
     console.log(result);
     return result;
   }

@@ -1,16 +1,30 @@
 <div class="card">
   <div class="card-body">
     <form>
+      <!--Description-->
       <div class="form-group">
-        <label for="description" class="col-md-4">Description</label>
-        <input type="text" class="form-control" id="description">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text"><i class="fas fa-info"></i></div>
+          </div>
+          <input type="text" class="form-control col-md-5" id="description" placeholder="Description" >
+        </div>
       </div>
+      <!--Sort Order-->
       <div class="form-group">
-        <label for="sort" class="col-md-4">Sort</label>
-        <input type="text" class="form-control" id="sort">
+        <div class="form-group">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div class="input-group-text"><i class="fas fa-camera" ></i></div>
+            </div>
+            <input type="text" class="form-control col-md-1" id="sort" placeholder="Sort">  
+          </div>
+        </div>
       </div>
+      <!--Submit Button-->
       <div class="form-group">
-        <button type="submit" class="btn btn-primary" (click)="addItemType(description.value, sort.value)">Add Type</button>
+        <!-- <button type="submit" class="btn btn-primary" (click)="addItemType(description.value, sort.value)">Add Type</button> --> 
+        <button type="submit" class="btn btn-primary">Add Type</button>
       </div>
     </form>
   </div>
